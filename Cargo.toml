@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "contracts/valence-core",
+    "backend",
+    "crates/valence-types"
+]
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+overflow-checks = true
+strip = "debuginfo"

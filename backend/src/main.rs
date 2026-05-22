@@ -4,7 +4,6 @@ use serde_json::Value;
 use std::{env, net::SocketAddr};
 use tokio::net::TcpListener;
 use tracing::info;
-use valence_types::CapacitySummary;
 
 #[derive(Clone)]
 struct AppState {

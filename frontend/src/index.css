@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  font-family: Inter, system-ui, sans-serif;
+  background: #020617;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+button {
+  font: inherit;
+}
